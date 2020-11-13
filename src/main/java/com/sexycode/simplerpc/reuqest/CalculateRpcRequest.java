@@ -14,6 +14,7 @@ public class CalculateRpcRequest implements Serializable {
     private String method;
     private int a;
     private int b;
+    private int c;
 
     public String getMethod() {
         return method;
